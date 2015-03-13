@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) throws Throwable {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args);// Test für Github
     }
 
 }
