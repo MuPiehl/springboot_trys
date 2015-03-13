@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 0.1.0
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_31
+Built-By: matthiaspiehl
+Created-By: IntelliJ IDEA
+Main-Class: ${start-class}
+
