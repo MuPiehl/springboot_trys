@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <VerifyEmailResponse xmlns="http://ws.cdyne.com/">
+            <VerifyEmailResult>
+                <ResponseText>Email Domain Not Found</ResponseText>
+                <ResponseCode>5</ResponseCode>
+                <LastMailServer/>
+                <GoodEmail>false</GoodEmail>
+            </VerifyEmailResult>
+        </VerifyEmailResponse>
+    </soap:Body>
+</soap:Envelope>
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+    <soap:Fault>
+        <faultcode>soap:Server</faultcode>
+        <faultstring>Server was unable to process request. ---&gt; Object reference not set to an instance of an object.</faultstring>
+        <detail />
+    </soap:Fault>
+</soap:Body>
+</soap:Envelope>

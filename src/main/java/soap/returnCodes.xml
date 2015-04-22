@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <ReturnCodesResponse xmlns="http://ws.cdyne.com/">
+            <ReturnCodesResult>
+                <anyType xsi:type="xsd:string">0-Invalid Email Address</anyType>
+                <anyType xsi:type="xsd:string">1-Not Used</anyType>
+                <anyType xsi:type="xsd:string">2-Verified Email Address (Treat as a good email)</anyType>
+                <anyType xsi:type="xsd:string">3-Mail Server will accept email (Treat as a good email)</anyType>
+                <anyType xsi:type="xsd:string">4-User not found</anyType>
+                <anyType xsi:type="xsd:string">5-Email Domain not found</anyType>
+                <anyType xsi:type="xsd:string">6-Not Used</anyType>
+                <anyType xsi:type="xsd:string">7-SMTP/Timeout Error (Treat as a good email)</anyType>
+                <anyType xsi:type="xsd:string">8-Domain valid. Email server(s) down</anyType>
+                <anyType xsi:type="xsd:string">9-License Key allowance exceeded</anyType>
+            </ReturnCodesResult>
+        </ReturnCodesResponse>
+    </soap:Body>
+</soap:Envelope>
